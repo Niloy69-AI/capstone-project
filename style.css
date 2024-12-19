@@ -1,0 +1,83 @@
+p {
+  font-size: 20px;
+}
+
+.pimg1,
+.pimg2,
+.pimg3 {
+  position: relative;
+
+  opacity: 0.7;
+
+  background-position: center;
+
+  background-size: cover;
+
+  background-repeat: no-repeat;
+
+  background-attachment: fixed;
+}
+
+.pimg1 {
+  background-image: url("https://media.istockphoto.com/id/537331500/photo/programming-code-abstract-technology-background-of-software-deve.jpg?s=612x612&w=0&k=20&c=jlYes8ZfnCmD0lLn-vKvzQoKXrWaEcVypHnB5MuO-g8=");
+
+  min-height: 400px;
+}
+
+.pimg2 {
+  background-image: url("https://i.pinimg.com/564x/dd/74/e4/dd74e4cfc114acde909d20af9eab8c7a.jpg");
+
+  min-height: 400px;
+}
+
+.pimg3 {
+  background-image: url("https://advertisingweek.com/wp-content/uploads/2024/04/iStock-1394308880-modified-9497895a-1508-41d4-a766-9411673b8b25-1170x600.jpg");
+
+  min-height: 400px;
+}
+
+.section {
+  text-align: center;
+
+  padding: 50px 80px;
+}
+
+.section-dark {
+  background-color: #282e34;
+
+  color: #ddd;
+}
+
+.ptext {
+  position: absolute;
+
+  top: 50%;
+
+  width: 100%;
+
+  text-align: center;
+
+  color: #000;
+
+  font-size: 27px;
+
+  letter-spacing: 8px;
+
+  text-transform: uppercase;
+}
+
+.ptext .border {
+  background-color: #111;
+
+  color: #fff;
+
+  padding: 20px;
+
+  opacity: 0.7;
+}
+
+@media (max-width: 568px) {
+  .pimg1 .pimg2 .pimg3 {
+    background-attachment: scroll;
+  }
+}
